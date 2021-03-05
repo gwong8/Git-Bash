@@ -1,0 +1,89 @@
+
+############## Create exercise folder ##############
+
+############## Setup remote repository ##############
+Initialized empty Git repository in /Users/gabrielwong/Git-Bash/git-exercise/remote-repo/.git/
+[master (root-commit) e773edb] Add README.md and .gitignore
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+
+############## You - Local ##############
+############## Clone remote repository to local ##############
+
+############## Setup simple local alias #############
+total 16
+drwxr-xr-x   5 gabrielwong  staff  160 Mar  5 00:04 .
+drwxr-xr-x   5 gabrielwong  staff  160 Mar  5 00:04 ..
+drwxr-xr-x  12 gabrielwong  staff  384 Mar  5 00:04 .git
+-rw-r--r--   1 gabrielwong  staff   29 Mar  5 00:04 .gitignore
+-rw-r--r--   1 gabrielwong  staff   20 Mar  5 00:04 README.md
+
+############## Add report and py scripts ##############
+automation script
+
+[master 3b5923e] Add report and automation scripts
+ 3 files changed, 3 insertions(+)
+ create mode 100644 automation.py
+ create mode 100644 report.txt
+ create mode 100644 signal.py
+
+############## John Doe's work on remote ##############
+[master 9e03de1] Add analysis script and chart
+ Author: John Doe <jdoe@example.com>
+ 2 files changed, 1 insertion(+)
+ create mode 100644 analysis.py
+ create mode 100644 analysis_income.png
+
+############## Make changes to report ##############
+[master d465620] Modify report content (second draft)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+############## Push local work ##############
+
+############## Error during push so fetch, merge, then push ##############
+############## Fetch remote ##############
+* d465620 Modify report content (second draft)
+| * 9e03de1 Add analysis script and chart
+|/  
+* 3b5923e Add report and automation scripts
+* e773edb Add README.md and .gitignore
+
+############## Three-way-merge ##############
+Merge made by the 'recursive' strategy.
+ analysis.py         | 1 +
+ analysis_income.png | 0
+ 2 files changed, 1 insertion(+)
+ create mode 100644 analysis.py
+ create mode 100644 analysis_income.png
+*   7caeba4 Merge
+|\  
+| * 9e03de1 Add analysis script and chart
+* | d465620 Modify report content (second draft)
+|/  
+* 3b5923e Add report and automation scripts
+* e773edb Add README.md and .gitignore
+
+############## Push to remote ##############
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+*   7caeba4 Merge
+|\  
+| * 9e03de1 Add analysis script and chart
+* | d465620 Modify report content (second draft)
+|/  
+* 3b5923e Add report and automation scripts
+* e773edb Add README.md and .gitignore
+
+############## Remote-repo log ##############
+HEAD detached at 9e03de1
+nothing to commit, working tree clean
+*   7caeba4 Merge
+|\  
+| * 9e03de1 Add analysis script and chart
+* | d465620 Modify report content (second draft)
+|/  
+* 3b5923e Add report and automation scripts
+* e773edb Add README.md and .gitignore
